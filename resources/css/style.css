@@ -6,11 +6,20 @@
 
 body {
     background-color: black;
+    margin: 0;
+    font-family: Verdana;
+    text-align: center;
+    color: white;
 }
 
 a {
+    width: 100%;
     color: aquamarine;
     font-size: 16px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
  
 .container {
@@ -23,8 +32,35 @@ a {
 
 header {
     width: 100%;
-    font-family: Verdana;
     font-size: 50px;
-    color: white;
-    text-align: center;
+    margin: 25px 0;
+}
+
+video {
+    display: block;
+    justify-content: center;
+    margin: 25px auto;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 21px;
+    color: gray;
+}
+
+img {
+    margin: 25px auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+footer {
+    text-align: right;
+    color: gray;
+    font-size: 21px;
+    margin: 0 10px 10px 10px;
 }
